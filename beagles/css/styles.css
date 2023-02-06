@@ -1,0 +1,117 @@
+/* CSS Document */
+
+*{
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+.title {
+	text-align: center;
+	font-size: 500%;
+	color: #e4f2ea;
+	text-shadow: 5px 5px 5px #11181e;
+	padding-top: 50px;
+}
+
+body {
+	background-color: #e4f2ea;
+	
+}
+
+header {
+	min-height: 300px;
+	background-image: url("../images/home_beagle.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: 20% 20%;
+}
+
+.hnav {
+	padding: 5px 0;
+	width: 100%;
+	background-color: #11181e;
+	min-height: 50px;
+}
+
+.hnav ul {
+	display: block;
+	text-align: center;
+}
+
+.hnav ul li {
+	display: inline-block;
+	list-style: none;
+	width: 15%;
+	margin-top: .8%;
+}
+
+.hnav a {
+	color: #e4f2ea;
+	text-decoration: none;
+	font-size: 1.5em;
+}
+
+.hnav a:hover {
+	text-decoration: underline;
+}
+
+main {
+	text-align: center;
+	padding: 50px 100px 50px 100px;
+	font-size: 150%;
+} 
+
+body {
+	background-color: antiquewhite;
+	color: #11181e;
+}
+
+h1 {
+	
+}
+
+h2{
+	
+}
+
+blockquote {
+	
+}
+
+table {
+	
+}
+
+.fnav {
+	padding: 0 0 10px 0;
+	background-color: #11181e;
+}
+
+.fnav ul {
+	display: block;
+	text-align: center;
+}
+
+.fnav ul li {
+	display: inline-block;
+	list-style: none;
+	width: 15%;
+	margin-top: .8%;
+}
+
+.fnav a {
+	color: #e4f2ea;
+	text-decoration: none;
+}
+
+.fnav a:hover {
+	text-decoration: underline;
+}
+
+.fair {
+	padding-top: 10px;
+	background-color: #11181e;
+	color: #e4f2ea;
+	text-align: center;
+}
