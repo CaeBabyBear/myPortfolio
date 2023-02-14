@@ -1,0 +1,91 @@
+/* CSS Document */
+/*
+font-family: 'Permanent Marker', cursive;
+font-family: 'Raleway', sans-serif;
+
+dull maroon: #987D7C
+dutch white: #F4E4BA
+dull green: #56876D
+black bean: #290606
+dark green: #04724D
+
+
+background-image: url("../images/titlebg.png")
+*/
+
+* {
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+
+body {
+	background-color: #F4E4BA;
+}
+
+.titles {
+	font-size: 2em;
+	margin: 0 100px;
+	padding: 10px;
+	border: solid 7px #290606;
+	color: #fff;
+	background-image: url("../images/titlebg.png")
+}
+
+.titles p {
+	font-family: 'Permanent Marker', cursive;
+	text-shadow: 0px 0px 5px #290606;
+}
+
+.resume {
+	margin: 5px 100px;
+	padding: 10px;
+	border: solid 7px #290606;
+	color: #290606;
+	background-color: #fff;
+}
+
+.resume h1 {
+	font-family: 'Permanent Marker', cursive;
+	text-align: center;
+	color: #290606;
+}
+
+.resume h2 {
+	padding: 10px 10%;
+	font-family: 'Raleway', sans-serif;
+	text-align: center;
+	color: #290606;
+}
+
+ul li {
+	padding: 10px 10%;
+	font-family: 'Raleway', sans-serif;
+	text-align: center;
+	color: #290606;
+}
+
+.border {
+	border-top: thick dashed #290606;
+}
+
+.button {
+	align-content: center;
+	border-radius: 12px;
+	background-color: #F4E4BA;
+	box-shadow: 7px 5px 0 #987D7C;
+	color: #290606;
+	font-size: 1.5em;
+	font-family: 'Permanent Marker', cursive;
+	margin-left: 43%;
+	margin-top: 20px;
+	padding: 10px;
+}
+
+.button:hover {
+	background-color: #987D7C;
+	box-shadow: 7px 5px 0 #F4E4BA;
+	color: #F4E4BA;
+	font-size: 1.5em;
+	font-family: 'Permanent Marker', cursive;
+}
